@@ -4,14 +4,17 @@ import styles from './App.module.css'
 
 import './global.css'
 
+import { Tasks } from './components/tasks/Tasks';
+
 function App() {
   return (
-    <div>
-      <Header />
-      <div className={styles.add}>
-        <input type="text" className={styles.input} />
-        <button className={styles.button}>+</button>
-      </div>
+    <div className={styles.todo}>
+        <Header />
+        <div className={styles.form}>
+          <input type="text" className={styles.input} />
+          <button className={styles.button}>+</button>
+        </div>
+        <Tasks />
     </div>
   )
 }

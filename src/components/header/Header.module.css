@@ -1,12 +1,29 @@
 .header {
-  background: var(--gray-700);
-  display: flex;
-  flex: 1;
-  width: 100%;
-  justify-content: center;
-  padding: 1.25rem 0;
+  position: relative;
+  height: 12.5rem;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+/* Gray 700 */
+
+background: #0D0D0D;
 }
 
 .header img {
-  height: 2rem;
+  position: absolute;
+  width: 5.75rem;
+  height: 3rem;
+  left: calc(50% - 5.75rem/2 + 1.063rem);
+  top: 4.5rem;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3rem;
+
+  /* Blue */
+
+  color: #4EA8DE;
 }
