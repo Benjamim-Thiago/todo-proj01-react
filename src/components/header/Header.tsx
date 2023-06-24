@@ -1,5 +1,5 @@
-import styles from './Header.module.css'
-import logo from '../../assets/logo.svg'
+import styles from "./Header.module.css";
+import logo from "../../assets/logo.svg";
 
 export function Header() {
   return (
@@ -8,5 +8,5 @@ export function Header() {
         <img src={logo} alt="Logo do Todo" />
       </header>
     </>
-  )
+  );
 }

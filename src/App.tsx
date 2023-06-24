@@ -1,19 +1,13 @@
 import { Header } from './components/header/Header';
+import { Tasks } from './components/tasks/Tasks';
 
 import styles from './App.module.css'
 
 import './global.css'
-
-import { Tasks } from './components/tasks/Tasks';
-
-function App() {
+function App() {  
   return (
     <div className={styles.todo}>
-        <Header />
-        <div className={styles.form}>
-          <input type="text" className={styles.input} />
-          <button className={styles.button}>+</button>
-        </div>
+        <Header />        
         <Tasks />
     </div>
   )
